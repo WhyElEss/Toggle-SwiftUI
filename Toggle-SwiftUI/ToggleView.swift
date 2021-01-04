@@ -22,7 +22,8 @@ struct ToggleView: View {
             }
             
             Toggle(isOn: $isOnToggle, label: {
-                Text("Label")
+                Text("Switch Color")
+                    .font(.headline)
             })
         }
         .padding()
